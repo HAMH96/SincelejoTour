@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Sincelejo - Sucre</string>
+    <string name="app_name">SincelejoTour</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciarses">Iniciar Sesión</string>
+    <string name="registrar">Registrarse</string>
+    <string name="rptPassword">Repetir Contraseña</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="cancel">Cancelar</string>
+    <string name="miPerfil">Mi Perfil</string>
+    <string name="cerrarSes">Cerrar Sesión</string>
+    <string name="principal">Principal</string>
+    <string name="cancelregist">Registro Cancelado</string>
+    <string name="noEquals">Los datos ingresados no coinciden</string>
+    <string name="sesClosed">Sesión Cerrada</string>
+    <string name="emptyFields">Hay campos sin llenar</string>
+</resources>
