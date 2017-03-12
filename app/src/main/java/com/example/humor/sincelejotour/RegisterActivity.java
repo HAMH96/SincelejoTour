@@ -41,10 +41,10 @@ public class RegisterActivity extends AppCompatActivity {
                 setResult(RESULT_OK,intent);
                 finish();
             }else{
-                Toast.makeText(getApplicationContext(),"Las contraseñas no coinciden",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),R.string.passNoEq,Toast.LENGTH_SHORT).show();
             }
         }else{
-            Toast.makeText(getApplicationContext(),"Hay campos sin llenar",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),R.string.emptyFields,Toast.LENGTH_SHORT).show();
         }
     }
 

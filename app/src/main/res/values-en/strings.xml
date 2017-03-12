@@ -2,18 +2,21 @@
 <resources>
     <string name="titulo">Sincelejo - Sucre</string>
     <string name="app_name">SincelejoTour</string>
-    <string name="username">Usuario</string>
-    <string name="password">Contraseña</string>
-    <string name="iniciarses">Iniciar Sesión</string>
-    <string name="registrar">Registrarse</string>
-    <string name="rptPassword">Repetir Contraseña</string>
-    <string name="email">Correo Electrónico</string>
-    <string name="cancel">Cancelar</string>
-    <string name="miPerfil">Mi Perfil</string>
-    <string name="cerrarSes">Cerrar Sesión</string>
-    <string name="principal">Principal</string>
-    <string name="cancelregist">Registro Cancelado</string>
-    <string name="noEquals">Los datos ingresados no coinciden</string>
-    <string name="sesClosed">Sesión Cerrada</string>
-    <string name="emptyFields">Hay campos sin llenar</string>
+    <string name="username">User</string>
+    <string name="password">Password</string>
+    <string name="iniciarses">Login</string>
+    <string name="registrar">Sign Up</string>
+    <string name="rptPassword">Repeat password</string>
+    <string name="email">e-Mail</string>
+    <string name="cancel">Cancel</string>
+    <string name="miPerfil">My Profile</string>
+    <string name="cerrarSes">Log Out</string>
+    <string name="principal">Main</string>
+    <string name="cancelregist">Sign up canceled</string>
+    <string name="noEquals">Wrong user or pass</string>
+    <string name="sesClosed">Session closed</string>
+    <string name="emptyFields">There are empty fields</string>
+    <string name="usernameP">User:</string>
+    <string name="emailP">e-Mail:</string>
+    <string name="passNoEq">The passwords don\'t coincide</string>
 </resources>

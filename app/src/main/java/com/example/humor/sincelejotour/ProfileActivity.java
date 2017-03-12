@@ -41,11 +41,13 @@ public class ProfileActivity extends AppCompatActivity {
         switch(id){
             case R.id.principal:
                 intent = new Intent(ProfileActivity.this,MainActivity.class);
+                intent.putExtra("username",1);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.cerrarSesion:
                 intent = new Intent(ProfileActivity.this,LoginActivity.class);
+                intent.putExtra("username",1);
                 startActivity(intent);
                 finish();
                 break;
