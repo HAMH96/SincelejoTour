@@ -8,21 +8,37 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-            android:screenOrientation="locked"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked" />
         <activity
             android:name=".LoginActivity"
-            android:screenOrientation="locked">
-        </activity>
-        <activity android:name=".RegisterActivity"
-            android:screenOrientation="locked"/>
-        <activity android:name=".ProfileActivity"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="locked" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarActivity"
+            android:label="@string/title_activity_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:label="@string/title_activity_restaurant"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
+
 </manifest>

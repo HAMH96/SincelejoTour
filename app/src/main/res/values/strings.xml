@@ -19,4 +19,22 @@
     <string name="usernameP">Usuario:</string>
     <string name="emailP">e-Mail:</string>
     <string name="passNoEq">Las contraseñas no coinciden</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotel1">Hotel Malibú</string>
+    <string name="hotel2">Hotel Arawak</string>
+    <string name="hotel3">Hotel Panorama</string>
+    <string name="hotels">Hoteles</string>
+    <string name="title_activity_hotel">HotelActivity</string>
+    <string name="title_activity_bar">BarActivity</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="bars">Bares</string>
+    <string name="restaurants">Restaurantes</string>
+    <string name="restau1">Restaurante 1</string>
+    <string name="restau2">Restaurante 2</string>
+    <string name="restau3">Restaurante 3</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

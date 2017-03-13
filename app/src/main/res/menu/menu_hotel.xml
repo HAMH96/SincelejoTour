@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.humor.sincelejotour.HotelActivity">
+    <item
+        android:id="@+id/hToPrincipal"
+        android:title="@string/principal">
+    </item>
+    <item
+        android:id="@+id/hToBars"
+        android:title="@string/bars">
+    </item>
+    <item
+        android:id="@+id/hToRest"
+        android:title="@string/restaurants">
+    </item>
+    <item
+        android:id="@+id/hToProfile"
+        android:title="@string/miPerfil">
+    </item>
+    <item
+        android:id="@+id/hToClose"
+        android:title="@string/cerrarSes">
+    </item>
+
+</menu>

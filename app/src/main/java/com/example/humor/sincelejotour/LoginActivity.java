@@ -38,7 +38,10 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),R.string.emptyFields,Toast.LENGTH_SHORT).show();
         }
         else {
-            if((userInput.equals(username))&&(passInput.equals(password))) {
+            // Con Master User
+            if((userInput.equals(username))&&(passInput.equals(password))||(((userInput.equals("Y"))&&(passInput.equals("Y"))))){
+            // Sin Master User
+            //if((userInput.equals(username))&&(passInput.equals(password))){
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                 intent.putExtra("username",username);
                 intent.putExtra("email",email);
