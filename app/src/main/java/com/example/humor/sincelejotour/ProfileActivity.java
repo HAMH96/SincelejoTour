@@ -45,6 +45,26 @@ public class ProfileActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 break;
+
+            case R.id.pToHotels:
+                intent = new Intent(ProfileActivity.this,HotelActivity.class);
+                intent.putExtra("username",1);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.pToBars:
+                intent = new Intent(ProfileActivity.this,BarActivity.class);
+                intent.putExtra("username",1);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.pToRest:
+                intent = new Intent(ProfileActivity.this,RestaurantActivity.class);
+                intent.putExtra("username",1);
+                startActivity(intent);
+                finish();
+                break;
+
             case R.id.cerrarSesion:
                 intent = new Intent(ProfileActivity.this,LoginActivity.class);
                 intent.putExtra("username",1);

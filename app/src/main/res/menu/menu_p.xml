@@ -4,6 +4,18 @@
         android:id="@+id/principal"
         android:title="@string/principal">
     </item>
+    <item
+        android:id="@+id/pToHotels"
+        android:title="@string/hotels">
+    </item>
+    <item
+        android:id="@+id/pToBars"
+        android:title="@string/bars">
+    </item>
+    <item
+        android:id="@+id/pToRest"
+        android:title="@string/restaurants">
+    </item>
     <item android:id="@+id/cerrarSesion"
         android:title="@string/cerrarSes">
     </item>
