@@ -1,7 +1,10 @@
 package com.example.humor.sincelejotour;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import java.util.ArrayList;
 
 public class ListaActivity extends AppCompatActivity {
 
@@ -33,9 +36,9 @@ public class ListaActivity extends AppCompatActivity {
         return imageID;
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lista);
+    public static ArrayList<ListaActivity> hotelData (Context context){
+        ArrayList<ListaActivity> data = new ArrayList<>();
+        data.add(new ListaActivity(context.getString(R.string.hotel2),"Es lindi","Desde 100000",R.drawable.hotel_arawak));
     }
+
 }

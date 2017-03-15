@@ -28,17 +28,21 @@ public class MyAdapter extends ArrayAdapter<ListaActivity> {
         ListaActivity codes = getItem(position);
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_bands, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_view_item, parent, false);
         }
         //mInflater.inflate(R.layout.list_item_bands, parent, false);
         // Lookup view for data population
-        TextView tvColor = (TextView) convertView.findViewById(R.id.list_title);
-        TextView tvBand = (TextView) convertView.findViewById(R.id.list_subtitle);
-        ImageView ivIcon = (ImageView) convertView.findViewById(R.id.list_icon);
+        ImageView img = (ImageView) convertView.findViewById(R.id.imgItem);
+        TextView name = (TextView) convertView.findViewById(R.id.nameItem);
+        TextView descrip = (TextView) convertView.findViewById(R.id.descrItem);
+        TextView price = (TextView) convertView.findViewById(R.id.priceItem);
+
         // Populate the data into the template view using the data object
-        tvColor.setText(codes.color);
-        tvBand.setText(codes.band);
-        ivIcon.setImageResource(codes.imageId);
+        img.setImageResource(codes.getImageID());
+        name.setText(codes.getName());
+        descrip.setText(codes.getDescrip());
+        price.setText(codes.getPrice());
+
         // Return the completed view to render on screen
         return convertView;
     }

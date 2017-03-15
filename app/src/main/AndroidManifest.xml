@@ -45,7 +45,8 @@
         <activity
             android:name=".HotelDActivity"
             android:label="@string/title_activity_hotel_d"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HotelsActivity"></activity>
     </application>
 
 </manifest>
