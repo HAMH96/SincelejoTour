@@ -30,18 +30,22 @@
         <activity
             android:name=".HotelActivity"
             android:label="@string/title_activity_hotel"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BarActivity"
             android:label="@string/title_activity_bar"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".RestaurantActivity"
             android:label="@string/title_activity_restaurant"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="locked"/>
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelDActivity"
+            android:label="@string/title_activity_hotel_d"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
