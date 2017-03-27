@@ -39,6 +39,25 @@ public class ListaActivity extends AppCompatActivity {
     public static ArrayList<ListaActivity> hotelData (Context context){
         ArrayList<ListaActivity> data = new ArrayList<>();
         data.add(new ListaActivity(context.getString(R.string.hotel2),"Es lindi","Desde 100000",R.drawable.hotel_arawak));
+        data.add(new ListaActivity(context.getString(R.string.hotel1),"Super lujoso","Desde 200000",R.drawable.hotel_malibu));
+        data.add(new ListaActivity(context.getString(R.string.hotel3),"Bueno, bonito y barato","Desde 80000",R.drawable.hotel_panorama));
+        return(data);
+    }
+
+    public static ArrayList<ListaActivity> barData (Context context){
+        ArrayList<ListaActivity> data = new ArrayList<>();
+        data.add(new ListaActivity(context.getString(R.string.bar1),"Es lindi","Desde 100000",R.drawable.kantaleta));
+        data.add(new ListaActivity(context.getString(R.string.bar2),"Super lujoso","Desde 200000",R.drawable.wepaje));
+        data.add(new ListaActivity(context.getString(R.string.bar3),"Bueno, bonito y barato","Desde 80000",R.drawable.ruta69));
+        return(data);
+    }
+
+    public static ArrayList<ListaActivity> restautantData (Context context){
+        ArrayList<ListaActivity> data = new ArrayList<>();
+        data.add(new ListaActivity(context.getString(R.string.rest1),"Es lindi","Desde 100000",R.drawable.zaitun));
+        data.add(new ListaActivity(context.getString(R.string.rest2),"Super lujoso","Desde 200000",R.drawable.arcanos));
+        data.add(new ListaActivity(context.getString(R.string.rest3),"Bueno, bonito y barato","Desde 80000",R.drawable.cajita));
+        return(data);
     }
 
 }

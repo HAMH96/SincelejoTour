@@ -21,7 +21,6 @@
     <string name="passNoEq">Las contraseñas no coinciden</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hotel1">Hotel Malibú</string>
     <string name="hotel2">Hotel Arawak</string>
     <string name="hotel3">Hotel Panorama</string>
@@ -44,4 +43,11 @@
     <string name="zaitun">ZAITUN</string>
     <string name="pricerest1">Desde 15000</string>
     <string name="descrest1">Comida Internacional</string>
+    <string name="bar1">Bar Kantaleta</string>
+    <string name="bar2">Bar Wepaje</string>
+    <string name="bar3">Bar Ruta 69</string>
+    <string name="rest1">Zaitun</string>
+    <string name="rest2">Arcanos</string>
+    <string name="rest3">La Cajita</string>
+
 </resources>

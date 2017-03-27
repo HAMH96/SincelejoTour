@@ -11,21 +11,21 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class HotelsActivity extends DrawerActivity {
+public class BarsActivity extends DrawerActivity {
 
-    ListView listHotels;
+    ListView listBars;
     ArrayList<ListaActivity> list;
     MyAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hotels);
-        list= ListaActivity.hotelData(this);
+        setContentView(R.layout.activity_bars);
+        list= ListaActivity.barData(this);
         adapter= new MyAdapter(this,list);
-        listHotels = (ListView) findViewById(R.id.listHotel);
-        listHotels.setAdapter(adapter);
-        listHotels.setOnItemClickListener(listenerAdapter);
+        listBars = (ListView) findViewById(R.id.listBar);
+        listBars.setAdapter(adapter);
+        listBars.setOnItemClickListener(listenerAdapter);
     }
     AdapterView.OnItemClickListener listenerAdapter = new AdapterView.OnItemClickListener() {
         @Override
@@ -43,7 +43,7 @@ public class HotelsActivity extends DrawerActivity {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            intent = new Intent(HotelsActivity.this,MainActivity.class);
+            intent = new Intent(BarsActivity.this,MainActivity.class);
             intent.putExtra("username",1);
             startActivity(intent);
             finish();

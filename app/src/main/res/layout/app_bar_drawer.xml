@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.humor.sincelejotour.HotelDActivity">
+    tools:context="com.example.humor.sincelejotour.DrawerActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/teal"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"
@@ -24,6 +24,6 @@
             android:layout_height="wrap_content" />
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_hotel_d2" />
+    <include layout="@layout/content_drawer" />
 
 </android.support.design.widget.CoordinatorLayout>

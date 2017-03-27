@@ -46,3 +46,4 @@ public class MyAdapter extends ArrayAdapter<ListaActivity> {
         // Return the completed view to render on screen
         return convertView;
     }
+}

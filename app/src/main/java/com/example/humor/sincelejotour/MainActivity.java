@@ -1,12 +1,14 @@
 package com.example.humor.sincelejotour;
 
 import android.content.Intent;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends DrawerActivity {
 
     private String username;
     private String email;
@@ -24,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     //username = extras.getString("username");
     //correo = extras.getString("correo");
 
-    @Override
+
+    /*@Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.menu,menu);
         return true;
@@ -64,6 +67,48 @@ public class MainActivity extends AppCompatActivity {
                 finish();
                 break;
         }
+        return true;
+    }*/
+
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+
+        int id = item.getItemId();
+
+        Intent intent;
+        switch(id){
+            case R.id.nav_profile:
+                intent = new Intent(MainActivity.this,ProfileActivity.class);
+                intent.putExtra("username",username);
+                intent.putExtra("correo",email);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.nav_logout:
+                intent = new Intent(MainActivity.this,LoginActivity.class);
+                setResult(RESULT_CANCELED,intent);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.nav_hotels:
+                intent = new Intent(MainActivity.this,HotelsActivity.class);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.nav_bars:
+                intent = new Intent(MainActivity.this,BarsActivity.class);
+                startActivity(intent);
+                finish();
+                break;
+            case R.id.nav_restaurants:
+                intent = new Intent(MainActivity.this,RestaurantsActivity.class);
+                startActivity(intent);
+                finish();
+                break;
+        }
+        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 }

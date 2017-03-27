@@ -32,4 +32,10 @@
     <string name="restau1">Restaurant 1</string>
     <string name="restau2">Restaurant 2</string>
     <string name="restau3">Restaurant 3</string>
+    <string name="bar1">Kantaleta Bar</string>
+    <string name="bar2">Wepaje Bar</string>
+    <string name="bar3">Ruta 69 Bar</string>
+    <string name="rest1">Zaitun</string>
+    <string name="rest2">Arcanos</string>
+    <string name="rest3">La Cajita</string>
 </resources>

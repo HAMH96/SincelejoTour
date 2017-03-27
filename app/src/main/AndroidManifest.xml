@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="locked" />
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:screenOrientation="locked" />
@@ -43,10 +44,20 @@
             android:screenOrientation="locked"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".HotelDActivity"
+            android:name=".DrawerActivity"
             android:label="@string/title_activity_hotel_d"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HotelsActivity"></activity>
+        <activity
+            android:name=".HotelsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".RestaurantsActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
