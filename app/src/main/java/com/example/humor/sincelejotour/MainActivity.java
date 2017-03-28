@@ -9,19 +9,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends DrawerActivity {
-
-    private String username;
-    private String email;
+    // private String username;
+    // private String email;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        data = getIntent().getExtras();
         setContentView(R.layout.activity_main);
-        Bundle data = getIntent().getExtras();
-        username = data.getString("username");
-        email = data.getString("email");
-    }
+        //username = data.getString("username");
+        //email = data.getString("email");
+}
 
     //username = extras.getString("username");
     //correo = extras.getString("correo");
@@ -81,28 +80,36 @@ public class MainActivity extends DrawerActivity {
             case R.id.nav_profile:
                 intent = new Intent(MainActivity.this,ProfileActivity.class);
                 intent.putExtra("username",username);
-                intent.putExtra("correo",email);
+                intent.putExtra("email",email);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.nav_logout:
                 intent = new Intent(MainActivity.this,LoginActivity.class);
                 setResult(RESULT_CANCELED,intent);
+                intent.putExtra("username",username);
+                intent.putExtra("email",email);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.nav_hotels:
                 intent = new Intent(MainActivity.this,HotelsActivity.class);
+                intent.putExtra("username",username);
+                intent.putExtra("email",email);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.nav_bars:
                 intent = new Intent(MainActivity.this,BarsActivity.class);
+                intent.putExtra("username",username);
+                intent.putExtra("email",email);
                 startActivity(intent);
                 finish();
                 break;
             case R.id.nav_restaurants:
                 intent = new Intent(MainActivity.this,RestaurantsActivity.class);
+                intent.putExtra("username",username);
+                intent.putExtra("email",email);
                 startActivity(intent);
                 finish();
                 break;

@@ -1,5 +1,6 @@
 package com.example.humor.sincelejotour;
 
+import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,12 +10,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 
 public class DrawerActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     protected Toolbar toolbar;
     protected DrawerLayout drawer;
     protected NavigationView navigationView;
+    protected Bundle data;
+
+    protected String username;
+    protected String email;
+    protected TextView userI;
+    protected TextView emailI;
 
     @Override
     public void setContentView(@LayoutRes int layoutResID) {
@@ -37,6 +45,13 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+
+        userI = (TextView) navigationView.getHeaderView(0).findViewById(R.id.userInfo);
+        emailI = (TextView) navigationView.getHeaderView(0).findViewById(R.id.emailInfo);
+        username = data.getString("username");
+        email = data.getString("email");
+        userI.setText(username);
+        emailI.setText(email);
 
     }
 

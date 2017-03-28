@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
         }
         else {
             // Con Master User
-            if((userInput.equals(username))&&(passInput.equals(password))||(((userInput.equals("Y"))&&(passInput.equals("Y"))))){
+            if((userInput.equals(username))&&(passInput.equals(password))||(((userInput.equals("Y"))&&(passInput.equals("y"))))){
             // Sin Master User
             //if((userInput.equals(username))&&(passInput.equals(password))){
                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
