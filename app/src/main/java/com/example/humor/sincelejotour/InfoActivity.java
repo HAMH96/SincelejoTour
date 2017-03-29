@@ -124,4 +124,32 @@ public class InfoActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent;
+        switch (ident) {
+            case 1:
+                intent = new Intent(InfoActivity.this, HotelsActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("email", email);
+                startActivity(intent);
+                finish();
+                break;
+            case 2:
+                intent = new Intent(InfoActivity.this, BarsActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("email", email);
+                startActivity(intent);
+                finish();
+                break;
+            case 3:
+                intent = new Intent(InfoActivity.this, RestaurantsActivity.class);
+                intent.putExtra("username", username);
+                intent.putExtra("email", email);
+                startActivity(intent);
+                finish();
+                break;
+        }
+    }
 }

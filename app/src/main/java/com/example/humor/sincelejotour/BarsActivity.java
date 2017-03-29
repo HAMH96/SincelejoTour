@@ -42,6 +42,7 @@ public class BarsActivity extends DrawerActivity {
             intent.putExtra("username",username);
             intent.putExtra("email",email);
             startActivity(intent);
+            finish();
         }
     };
 
