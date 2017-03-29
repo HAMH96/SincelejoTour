@@ -11,7 +11,7 @@
     <string name="cancel">Cancel</string>
     <string name="miPerfil">My Profile</string>
     <string name="cerrarSes">Log Out</string>
-    <string name="principal">Main</string>
+    <string name="principal">Home</string>
     <string name="cancelregist">Sign up canceled</string>
     <string name="noEquals">Wrong user or pass</string>
     <string name="sesClosed">Session closed</string>
@@ -57,13 +57,13 @@
     <string name="pricebar1">Starting at $5,000</string>
     <string name="pricebar2">Starting at $3,000</string>
     <string name="pricebar3">Starting at $4,500</string>
-    <string name="hotel1Info">Malobú Hotel has rooms that are perfect for business people and to stay on vacations, it offers a unique experience for the guests, it has big outside spaces, WiFi and audio systems, enjoy our reataurants, La Guaquería offers international food and Parrilla y Bar has a diverse menu of meat dishes.</string>
+    <string name="hotel1Info">Malibú Hotel has rooms that are perfect for business people and to stay on vacations, it offers a unique experience for the guests, it has big outside spaces, WiFi and audio systems, enjoy our reataurants, La Guaquería offers international food and Parrilla y Bar has a diverse menu of meat dishes.</string>
     <string name="hotel2Info">Arawak plaza Hotel, placed in a night-life zone in Sincelejo, has proximity to many bars and restaurants, it has comfortable rooms at a very good price, also has business center and events rooms.</string>
     <string name="hotel3Info">This hotel has 47 comfortable rooms, gym, pool, laundry and events rooms, also has proximity to VIVA Sincelejo mall, where you can go shopping, eat, go to movies and have fun.</string>
-    <string name="bar1Info">La rumba llega a otro nivel en Sincelejo en Kantaleta Bar, disfruta con nuestra variedad de cocteles y bebidas, cuenta con terraza, jardín interno y salón central, además siempre encontrarás musica en vivo y un DJ invitado.</string>
-    <string name="bar2Info">Disfruta del mejor vallenato en Wepaje Bar, para los amantes del vallenato, cada viernes disfruta de  nuestra famosa parranda, con promociones en todas las bebidas.</string>
-    <string name="bar3Info">Ven a Ruta 69 a disfrutar de la mejor música rock y las mejor ofera de bebidas de la ciudad, nuestro ambiente retro te encantará, no olvides los miércoles de karaoke, podrás ganar muchos premios.</string>
-    <string name="rest1Info">Zaitun es un restaurante que ofrece una gran variedad de comida internacional, posee un agradable ambiente y su menú incluye platos de mas de 10 países que darán un gusto a tu paladar.</string>
-    <string name="rest2Info">Arcanos es un restaurante gourmet con platos típicos de la región con un estilo gourmet exquisito, además posee bar y un ambiente agradable para que disfrutes tu estadía.</string>
-    <string name="rest3Info">La Cajita es un restaurante y café con un ambiente retro, ven y disfruta de nuestra gran variedad de platos, postres y diferentes tipos de café.</string>
+    <string name="bar1Info">The party reaches a higher level in Kantaleta Bar in Sincelejo, enjoy our variety of drinks and coctels, it has terrace, inner garden and a central saloon, there always are live music and an invited DJ.</string>
+    <string name="bar2Info">Enjoy the best vallenato music in Wepaje Bar, the perfect place for vallenato lovers, each friday we have our famous parranda(vallenato music party) with discounts in all the drinks.</string>
+    <string name="bar3Info">Come to Ruta 69 and enjoy the best rock music and the best variety of drinks in the city, our retro ambience will captivate you, don\'t forget the karaoke wednesdays, where you can win a lot of prizes.</string>
+    <string name="rest1Info">Zaitun is a restaurant that offers a big variety of international food, it has a pleasant ambience and the menu includes dishes from more than 10 countries that will captivate your taste.</string>
+    <string name="rest2Info">Arcanos is a gourmet restaurant with regional dishes with an exquisite gourmet style, also it has bar and a pleasant ambience to make your stay a good experience.</string>
+    <string name="rest3Info">La Cajita is a restaurant and café with retro ambience, come and enjoy our variety of dishes, desserts, and coffee drinks.</string>
 </resources>
