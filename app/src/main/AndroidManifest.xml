@@ -30,21 +30,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HotelActivity"
-            android:label="@string/title_activity_hotel"
-            android:screenOrientation="locked"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".BarActivity"
-            android:label="@string/title_activity_bar"
-            android:screenOrientation="locked"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".RestaurantActivity"
-            android:label="@string/title_activity_restaurant"
-            android:screenOrientation="locked"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".DrawerActivity"
             android:label="@string/title_activity_hotel_d"
             android:theme="@style/AppTheme.NoActionBar" />
