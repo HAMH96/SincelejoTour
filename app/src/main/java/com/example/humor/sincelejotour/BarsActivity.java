@@ -28,14 +28,20 @@ public class BarsActivity extends DrawerActivity {
         listBars = (ListView) findViewById(R.id.listBar);
         listBars.setAdapter(adapter);
         listBars.setOnItemClickListener(listenerAdapter);
-
+        getSupportActionBar().setTitle(R.string.bars);
+        MenuItem item = navigationView.getMenu().getItem(2);
+        item.setChecked(true);
     }
+
     AdapterView.OnItemClickListener listenerAdapter = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-            //ListaActivity manager = list.get(position);
-            //Intent intent = new Intent(this, ACtivityX.class);
-            //intent.putExtra("title", manager.getName());
+            Intent intent = new Intent(BarsActivity.this, InfoActivity.class);
+            intent.putExtra("position",position);
+            intent.putExtra("ident",2);
+            intent.putExtra("username",username);
+            intent.putExtra("email",email);
+            startActivity(intent);
         }
     };
 

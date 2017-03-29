@@ -28,14 +28,20 @@ public class HotelsActivity extends DrawerActivity {
         listHotels = (ListView) findViewById(R.id.listHotel);
         listHotels.setAdapter(adapter);
         listHotels.setOnItemClickListener(listenerAdapter);
-
+        getSupportActionBar().setTitle(R.string.hotels);
+        MenuItem item = navigationView.getMenu().getItem(1);
+        item.setChecked(true);
     }
+
     AdapterView.OnItemClickListener listenerAdapter = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-            //ListaActivity manager = list.get(position);
-            //Intent intent = new Intent(this, ACtivityX.class);
-            //intent.putExtra("title", manager.getName());
+            Intent intent = new Intent(HotelsActivity.this, InfoActivity.class);
+            intent.putExtra("position",position);
+            intent.putExtra("ident",1);
+            intent.putExtra("username",username);
+            intent.putExtra("email",email);
+            startActivity(intent);
         }
     };
 

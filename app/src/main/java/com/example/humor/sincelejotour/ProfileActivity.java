@@ -30,6 +30,9 @@ public class ProfileActivity extends DrawerActivity {
         //email = data.getString("correo");
         userI.setText(username);
         emailI.setText(email);
+        getSupportActionBar().setTitle(R.string.miPerfil);
+        MenuItem item = navigationView.getMenu().getItem(4);
+        item.setChecked(true);
     }
 
     /*@Override
@@ -94,7 +97,6 @@ public class ProfileActivity extends DrawerActivity {
         // Handle navigation view item clicks here.
 
         int id = item.getItemId();
-
         Intent intent;
         switch(id){
             case R.id.nav_bars:

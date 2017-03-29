@@ -18,6 +18,8 @@ public class MainActivity extends DrawerActivity {
         super.onCreate(savedInstanceState);
         data = getIntent().getExtras();
         setContentView(R.layout.activity_main);
+        MenuItem item = navigationView.getMenu().getItem(0);
+        item.setChecked(true);
         //username = data.getString("username");
         //email = data.getString("email");
 }

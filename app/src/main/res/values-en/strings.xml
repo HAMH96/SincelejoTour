@@ -38,4 +38,23 @@
     <string name="rest1">Zaitun</string>
     <string name="rest2">Arcanos</string>
     <string name="rest3">La Cajita</string>
+    <string name="info">Place information</string>
+    <string name="descrest1">International food</string>
+    <string name="descrest3">Bistró - Café</string>
+    <string name="descrest2">Gourmet Restaurant - Bar</string>
+    <string name="pricerest1">Starting at 15000</string>
+    <string name="pricerest2">Starting at $20,000</string>
+    <string name="pricerest3">Starting at $18,000</string>
+    <string name="descbar1">Bar - Crossover Disco</string>
+    <string name="descbar2">Vallenato Music</string>
+    <string name="descbar3">Retro Rock Bar</string>
+    <string name="deschotel1">Luxury Hotel with Casino</string>
+    <string name="deschotel2">Comfortable rooms at good price</string>
+    <string name="deschotel3">Hotel with pool and near to a shopping mall</string>
+    <string name="pricechotel1">Starting at $200,000</string>
+    <string name="pricechotel2">Starting at $169,000</string>
+    <string name="pricechotel3">Starting at $182,000</string>
+    <string name="pricebar1">Starting at $5,000</string>
+    <string name="pricebar2">Starting at $3,000</string>
+    <string name="pricebar3">Starting at $4,500</string>
 </resources>

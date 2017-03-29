@@ -40,14 +40,31 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="zaitun">ZAITUN</string>
-    <string name="pricerest1">Desde 15000</string>
-    <string name="descrest1">Comida Internacional</string>
+
     <string name="bar1">Bar Kantaleta</string>
     <string name="bar2">Bar Wepaje</string>
     <string name="bar3">Bar Ruta 69</string>
     <string name="rest1">Zaitun</string>
     <string name="rest2">Arcanos</string>
     <string name="rest3">La Cajita</string>
+    <string name="info">Información del lugar</string>
+    <string name="descrest1">Comida Internacional</string>
+    <string name="descrest3">Bistró - Café</string>
+    <string name="descrest2">Restaurante Gourmet - Bar</string>
+    <string name="pricerest1">Desde $15,000</string>
+    <string name="pricerest2">Desde $20,000</string>
+    <string name="pricerest3">Desde $18,000</string>
+    <string name="descbar1">Bar - Discoteca Crossover</string>
+    <string name="descbar2">Música vallenata</string>
+    <string name="descbar3">Bar retro rockero</string>
+    <string name="deschotel1">Hotel lujoso con casino</string>
+    <string name="deschotel2">Habitaciones cómodas a buen precio</string>
+    <string name="deschotel3">Hotel con piscina cercano a centro comercial</string>
+    <string name="pricechotel1">Desde $200,000</string>
+    <string name="pricechotel2">Desde $169,000</string>
+    <string name="pricechotel3">Desde $182,000</string>
+    <string name="pricebar1">Desde $5,000</string>
+    <string name="pricebar2">Desde $3,000</string>
+    <string name="pricebar3">Desde $4,500</string>
 
 </resources>

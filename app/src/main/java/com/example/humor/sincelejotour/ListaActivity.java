@@ -38,25 +38,25 @@ public class ListaActivity extends AppCompatActivity {
 
     public static ArrayList<ListaActivity> hotelData (Context context){
         ArrayList<ListaActivity> data = new ArrayList<>();
-        data.add(new ListaActivity(context.getString(R.string.hotel2),"Es lindi","Desde 100000",R.drawable.hotel_arawak));
-        data.add(new ListaActivity(context.getString(R.string.hotel1),"Super lujoso","Desde 200000",R.drawable.hotel_malibu));
-        data.add(new ListaActivity(context.getString(R.string.hotel3),"Bueno, bonito y barato","Desde 80000",R.drawable.hotel_panorama));
+        data.add(new ListaActivity(context.getString(R.string.hotel1),context.getString(R.string.deschotel1),context.getString(R.string.pricechotel1),R.drawable.hotel_malibu));
+        data.add(new ListaActivity(context.getString(R.string.hotel2),context.getString(R.string.deschotel2),context.getString(R.string.pricechotel2),R.drawable.hotel_arawak));
+        data.add(new ListaActivity(context.getString(R.string.hotel3),context.getString(R.string.deschotel3),context.getString(R.string.pricechotel3),R.drawable.hotel_panorama));
         return(data);
     }
 
     public static ArrayList<ListaActivity> barData (Context context){
         ArrayList<ListaActivity> data = new ArrayList<>();
-        data.add(new ListaActivity(context.getString(R.string.bar1),"Es lindi","Desde 100000",R.drawable.kantaleta));
-        data.add(new ListaActivity(context.getString(R.string.bar2),"Super lujoso","Desde 200000",R.drawable.wepaje));
-        data.add(new ListaActivity(context.getString(R.string.bar3),"Bueno, bonito y barato","Desde 80000",R.drawable.ruta69));
+        data.add(new ListaActivity(context.getString(R.string.bar1),context.getString(R.string.descbar1),context.getString(R.string.pricebar1),R.drawable.kantaleta));
+        data.add(new ListaActivity(context.getString(R.string.bar2),context.getString(R.string.descbar2),context.getString(R.string.pricebar2),R.drawable.wepaje));
+        data.add(new ListaActivity(context.getString(R.string.bar3),context.getString(R.string.descbar3),context.getString(R.string.pricebar3),R.drawable.ruta69));
         return(data);
     }
 
     public static ArrayList<ListaActivity> restautantData (Context context){
         ArrayList<ListaActivity> data = new ArrayList<>();
-        data.add(new ListaActivity(context.getString(R.string.rest1),"Es lindi","Desde 100000",R.drawable.zaitun));
-        data.add(new ListaActivity(context.getString(R.string.rest2),"Super lujoso","Desde 200000",R.drawable.arcanos));
-        data.add(new ListaActivity(context.getString(R.string.rest3),"Bueno, bonito y barato","Desde 80000",R.drawable.cajita));
+        data.add(new ListaActivity(context.getString(R.string.rest1),context.getString(R.string.descrest1),context.getString(R.string.pricerest1),R.drawable.zaitun));
+        data.add(new ListaActivity(context.getString(R.string.rest2),context.getString(R.string.descrest2),context.getString(R.string.pricerest2),R.drawable.arcanos));
+        data.add(new ListaActivity(context.getString(R.string.rest3),context.getString(R.string.descrest3),context.getString(R.string.pricerest3),R.drawable.cajita));
         return(data);
     }
 
