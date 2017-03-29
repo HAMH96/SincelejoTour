@@ -48,7 +48,7 @@
     <string name="descbar1">Bar - Crossover Disco</string>
     <string name="descbar2">Vallenato Music</string>
     <string name="descbar3">Retro Rock Bar</string>
-    <string name="deschotel1">Luxury Hotel with Casino</string>
+    <string name="deschotel1">Luxury Hotel with two restaurants</string>
     <string name="deschotel2">Comfortable rooms at good price</string>
     <string name="deschotel3">Hotel with pool and near to a shopping mall</string>
     <string name="pricechotel1">Starting at $200,000</string>
@@ -57,4 +57,13 @@
     <string name="pricebar1">Starting at $5,000</string>
     <string name="pricebar2">Starting at $3,000</string>
     <string name="pricebar3">Starting at $4,500</string>
+    <string name="hotel1Info">Malobú Hotel has rooms that are perfect for business people and to stay on vacations, it offers a unique experience for the guests, it has big outside spaces, WiFi and audio systems, enjoy our reataurants, La Guaquería offers international food and Parrilla y Bar has a diverse menu of meat dishes.</string>
+    <string name="hotel2Info">Arawak plaza Hotel, placed in a night-life zone in Sincelejo, has proximity to many bars and restaurants, it has comfortable rooms at a very good price, also has business center and events rooms.</string>
+    <string name="hotel3Info">This hotel has 47 comfortable rooms, gym, pool, laundry and events rooms, also has proximity to VIVA Sincelejo mall, where you can go shopping, eat, go to movies and have fun.</string>
+    <string name="bar1Info">La rumba llega a otro nivel en Sincelejo en Kantaleta Bar, disfruta con nuestra variedad de cocteles y bebidas, cuenta con terraza, jardín interno y salón central, además siempre encontrarás musica en vivo y un DJ invitado.</string>
+    <string name="bar2Info">Disfruta del mejor vallenato en Wepaje Bar, para los amantes del vallenato, cada viernes disfruta de  nuestra famosa parranda, con promociones en todas las bebidas.</string>
+    <string name="bar3Info">Ven a Ruta 69 a disfrutar de la mejor música rock y las mejor ofera de bebidas de la ciudad, nuestro ambiente retro te encantará, no olvides los miércoles de karaoke, podrás ganar muchos premios.</string>
+    <string name="rest1Info">Zaitun es un restaurante que ofrece una gran variedad de comida internacional, posee un agradable ambiente y su menú incluye platos de mas de 10 países que darán un gusto a tu paladar.</string>
+    <string name="rest2Info">Arcanos es un restaurante gourmet con platos típicos de la región con un estilo gourmet exquisito, además posee bar y un ambiente agradable para que disfrutes tu estadía.</string>
+    <string name="rest3Info">La Cajita es un restaurante y café con un ambiente retro, ven y disfruta de nuestra gran variedad de platos, postres y diferentes tipos de café.</string>
 </resources>

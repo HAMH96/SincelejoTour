@@ -41,52 +41,52 @@ public class InfoActivity extends AppCompatActivity {
         switch (ident){
             case 1:
                 if (position==0){
-                    title.setText(R.string.hotel2);
-                    info.setText(R.string.hotel2);
-                    image.setImageResource(R.drawable.hotel_arawak);
+                    title.setText(R.string.hotel1);
+                    info.setText(R.string.hotel1Info);
+                    image.setImageResource(R.drawable.hotel_malibu);
                 }
                 else if(position==1){
-                    title.setText(R.string.hotel1);
-                    info.setText(R.string.hotel1);
-                    image.setImageResource(R.drawable.hotel_malibu);
+                    title.setText(R.string.hotel2);
+                    info.setText(R.string.hotel2Info);
+                    image.setImageResource(R.drawable.hotel_arawak);
                 }
                 else if(position==2){
                     title.setText(R.string.hotel3);
-                    info.setText(R.string.hotel3);
+                    info.setText(R.string.hotel3Info);
                     image.setImageResource(R.drawable.hotel_panorama);
                 }
                 break;
             case 2:
                 if (position==0){
                     title.setText(R.string.bar1);
-                    info.setText(R.string.bar1);
+                    info.setText(R.string.bar1Info);
                     image.setImageResource(R.drawable.kantaleta);
                 }
                 else if(position==1){
                     title.setText(R.string.bar2);
-                    info.setText(R.string.bar2);
+                    info.setText(R.string.bar2Info);
                     image.setImageResource(R.drawable.wepaje);
                 }
                 else if(position==2){
                     title.setText(R.string.bar3);
-                    info.setText(R.string.bar3);
+                    info.setText(R.string.bar3Info);
                     image.setImageResource(R.drawable.ruta69);
                 }
                 break;
             case 3:
                 if (position==0){
                     title.setText(R.string.rest1);
-                    info.setText(R.string.rest1);
+                    info.setText(R.string.rest1Info);
                     image.setImageResource(R.drawable.zaitun);
                 }
                 else if(position==1){
                     title.setText(R.string.rest2);
-                    info.setText(R.string.rest2);
+                    info.setText(R.string.rest2Info);
                     image.setImageResource(R.drawable.arcanos);
                 }
                 else if(position==2){
                     title.setText(R.string.rest3);
-                    info.setText(R.string.rest3);
+                    info.setText(R.string.rest3Info);
                     image.setImageResource(R.drawable.cajita);
                 }
                 break;
